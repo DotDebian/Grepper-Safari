@@ -1,0 +1,1095 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D63C177627E48D7B00840AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C177527E48D7B00840AFF /* AppDelegate.swift */; };
+		D63C177827E48D7B00840AFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C177727E48D7B00840AFF /* SceneDelegate.swift */; };
+		D63C177B27E48D7B00840AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63C177927E48D7B00840AFF /* LaunchScreen.storyboard */; };
+		D63C177E27E48D7B00840AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63C177C27E48D7B00840AFF /* Main.storyboard */; };
+		D63C178727E48D7B00840AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C178627E48D7B00840AFF /* AppDelegate.swift */; };
+		D63C178A27E48D7B00840AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63C178827E48D7B00840AFF /* Main.storyboard */; };
+		D63C179227E48D7B00840AFF /* Grepper Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D63C179127E48D7B00840AFF /* Grepper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D63C179C27E48D7B00840AFF /* Grepper Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D63C179B27E48D7B00840AFF /* Grepper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D63C17A227E48D7B00840AFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D63C176527E48D7A00840AFF /* Main.html */; };
+		D63C17A327E48D7B00840AFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D63C176527E48D7A00840AFF /* Main.html */; };
+		D63C17A427E48D7B00840AFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C176727E48D7A00840AFF /* Icon.png */; };
+		D63C17A527E48D7B00840AFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C176727E48D7A00840AFF /* Icon.png */; };
+		D63C17A627E48D7B00840AFF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D63C176827E48D7A00840AFF /* Style.css */; };
+		D63C17A727E48D7B00840AFF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D63C176827E48D7A00840AFF /* Style.css */; };
+		D63C17A827E48D7B00840AFF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C176927E48D7A00840AFF /* Script.js */; };
+		D63C17A927E48D7B00840AFF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C176927E48D7A00840AFF /* Script.js */; };
+		D63C17AA27E48D7B00840AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C176A27E48D7A00840AFF /* ViewController.swift */; };
+		D63C17AB27E48D7B00840AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C176A27E48D7A00840AFF /* ViewController.swift */; };
+		D63C17AC27E48D7B00840AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63C176B27E48D7B00840AFF /* Assets.xcassets */; };
+		D63C17AD27E48D7B00840AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63C176B27E48D7B00840AFF /* Assets.xcassets */; };
+		D63C17AE27E48D7B00840AFF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C176D27E48D7B00840AFF /* SafariWebExtensionHandler.swift */; };
+		D63C17AF27E48D7B00840AFF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C176D27E48D7B00840AFF /* SafariWebExtensionHandler.swift */; };
+		D63C17DF27E48D7B00840AFF /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C127E48D7B00840AFF /* icon16.png */; };
+		D63C17E027E48D7B00840AFF /* codemirror in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C227E48D7B00840AFF /* codemirror */; };
+		D63C17E127E48D7B00840AFF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C327E48D7B00840AFF /* popup.js */; };
+		D63C17E227E48D7B00840AFF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C427E48D7B00840AFF /* background.js */; };
+		D63C17E327E48D7B00840AFF /* content_page2_loader.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C527E48D7B00840AFF /* content_page2_loader.js */; };
+		D63C17E427E48D7B00840AFF /* js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C627E48D7B00840AFF /* js */; };
+		D63C17E527E48D7B00840AFF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C727E48D7B00840AFF /* popup.html */; };
+		D63C17E627E48D7B00840AFF /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C827E48D7B00840AFF /* icon48.png */; };
+		D63C17E727E48D7B00840AFF /* web in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C927E48D7B00840AFF /* web */; };
+		D63C17E827E48D7B00840AFF /* prism in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CA27E48D7B00840AFF /* prism */; };
+		D63C17E927E48D7B00840AFF /* grepper_notifications.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CB27E48D7B00840AFF /* grepper_notifications.js */; };
+		D63C17EA27E48D7B00840AFF /* grepper_app.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CC27E48D7B00840AFF /* grepper_app.js */; };
+		D63C17EB27E48D7B00840AFF /* fa_subset in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CD27E48D7B00840AFF /* fa_subset */; };
+		D63C17EC27E48D7B00840AFF /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CE27E48D7B00840AFF /* main.css */; };
+		D63C17ED27E48D7B00840AFF /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CF27E48D7B00840AFF /* icon128.png */; };
+		D63C17EE27E48D7B00840AFF /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D027E48D7B00840AFF /* _metadata */; };
+		D63C17EF27E48D7B00840AFF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D127E48D7B00840AFF /* README.md */; };
+		D63C17F027E48D7B00840AFF /* img in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D227E48D7B00840AFF /* img */; };
+		D63C17F127E48D7B00840AFF /* content_page2.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D327E48D7B00840AFF /* content_page2.js */; };
+		D63C17F227E48D7B00840AFF /* icon96.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D427E48D7B00840AFF /* icon96.png */; };
+		D63C17F327E48D7B00840AFF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D527E48D7B00840AFF /* manifest.json */; };
+		D63C17F427E48D7B00840AFF /* semantic in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D627E48D7B00840AFF /* semantic */; };
+		D63C17F527E48D7B00840AFF /* page2.css in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D727E48D7B00840AFF /* page2.css */; };
+		D63C17F627E48D7B00840AFF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D827E48D7B00840AFF /* popup.css */; };
+		D63C17F727E48D7B00840AFF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D927E48D7B00840AFF /* content.js */; };
+		D63C17F827E48D7B00840AFF /* icon_tall.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DA27E48D7B00840AFF /* icon_tall.png */; };
+		D63C17F927E48D7B00840AFF /* mani_backup.json in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DB27E48D7B00840AFF /* mani_backup.json */; };
+		D63C17FA27E48D7B00840AFF /* icon24.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DC27E48D7B00840AFF /* icon24.png */; };
+		D63C17FB27E48D7B00840AFF /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DD27E48D7B00840AFF /* icon32.png */; };
+		D63C17FC27E48D7B00840AFF /* media in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DE27E48D7B00840AFF /* media */; };
+		D63C17FD27E48D7B00840AFF /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C127E48D7B00840AFF /* icon16.png */; };
+		D63C17FE27E48D7B00840AFF /* codemirror in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C227E48D7B00840AFF /* codemirror */; };
+		D63C17FF27E48D7B00840AFF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C327E48D7B00840AFF /* popup.js */; };
+		D63C180027E48D7B00840AFF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C427E48D7B00840AFF /* background.js */; };
+		D63C180127E48D7B00840AFF /* content_page2_loader.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C527E48D7B00840AFF /* content_page2_loader.js */; };
+		D63C180227E48D7B00840AFF /* js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C627E48D7B00840AFF /* js */; };
+		D63C180327E48D7B00840AFF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C727E48D7B00840AFF /* popup.html */; };
+		D63C180427E48D7B00840AFF /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C827E48D7B00840AFF /* icon48.png */; };
+		D63C180527E48D7B00840AFF /* web in Resources */ = {isa = PBXBuildFile; fileRef = D63C17C927E48D7B00840AFF /* web */; };
+		D63C180627E48D7B00840AFF /* prism in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CA27E48D7B00840AFF /* prism */; };
+		D63C180727E48D7B00840AFF /* grepper_notifications.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CB27E48D7B00840AFF /* grepper_notifications.js */; };
+		D63C180827E48D7B00840AFF /* grepper_app.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CC27E48D7B00840AFF /* grepper_app.js */; };
+		D63C180927E48D7B00840AFF /* fa_subset in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CD27E48D7B00840AFF /* fa_subset */; };
+		D63C180A27E48D7B00840AFF /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CE27E48D7B00840AFF /* main.css */; };
+		D63C180B27E48D7B00840AFF /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17CF27E48D7B00840AFF /* icon128.png */; };
+		D63C180C27E48D7B00840AFF /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D027E48D7B00840AFF /* _metadata */; };
+		D63C180D27E48D7B00840AFF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D127E48D7B00840AFF /* README.md */; };
+		D63C180E27E48D7B00840AFF /* img in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D227E48D7B00840AFF /* img */; };
+		D63C180F27E48D7B00840AFF /* content_page2.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D327E48D7B00840AFF /* content_page2.js */; };
+		D63C181027E48D7B00840AFF /* icon96.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D427E48D7B00840AFF /* icon96.png */; };
+		D63C181127E48D7B00840AFF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D527E48D7B00840AFF /* manifest.json */; };
+		D63C181227E48D7B00840AFF /* semantic in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D627E48D7B00840AFF /* semantic */; };
+		D63C181327E48D7B00840AFF /* page2.css in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D727E48D7B00840AFF /* page2.css */; };
+		D63C181427E48D7B00840AFF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D827E48D7B00840AFF /* popup.css */; };
+		D63C181527E48D7B00840AFF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D63C17D927E48D7B00840AFF /* content.js */; };
+		D63C181627E48D7B00840AFF /* icon_tall.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DA27E48D7B00840AFF /* icon_tall.png */; };
+		D63C181727E48D7B00840AFF /* mani_backup.json in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DB27E48D7B00840AFF /* mani_backup.json */; };
+		D63C181827E48D7B00840AFF /* icon24.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DC27E48D7B00840AFF /* icon24.png */; };
+		D63C181927E48D7B00840AFF /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DD27E48D7B00840AFF /* icon32.png */; };
+		D63C181A27E48D7B00840AFF /* media in Resources */ = {isa = PBXBuildFile; fileRef = D63C17DE27E48D7B00840AFF /* media */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D63C179327E48D7B00840AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63C175F27E48D7A00840AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63C179027E48D7B00840AFF;
+			remoteInfo = "Grepper Extension (iOS)";
+		};
+		D63C179D27E48D7B00840AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D63C175F27E48D7A00840AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63C179A27E48D7B00840AFF;
+			remoteInfo = "Grepper Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D63C17B527E48D7B00840AFF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D63C179227E48D7B00840AFF /* Grepper Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C17BC27E48D7B00840AFF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D63C179C27E48D7B00840AFF /* Grepper Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D63C176627E48D7A00840AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		D63C176727E48D7A00840AFF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D63C176827E48D7A00840AFF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D63C176927E48D7A00840AFF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D63C176A27E48D7A00840AFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D63C176B27E48D7B00840AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63C176D27E48D7B00840AFF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D63C177227E48D7B00840AFF /* Grepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63C177527E48D7B00840AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D63C177727E48D7B00840AFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D63C177A27E48D7B00840AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63C177D27E48D7B00840AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63C177F27E48D7B00840AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63C178427E48D7B00840AFF /* Grepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63C178627E48D7B00840AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D63C178927E48D7B00840AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63C178B27E48D7B00840AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63C178C27E48D7B00840AFF /* Grepper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grepper.entitlements; sourceTree = "<group>"; };
+		D63C179127E48D7B00840AFF /* Grepper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Grepper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63C179627E48D7B00840AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63C179B27E48D7B00840AFF /* Grepper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Grepper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63C17A027E48D7B00840AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63C17A127E48D7B00840AFF /* Grepper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grepper.entitlements; sourceTree = "<group>"; };
+		D63C17C127E48D7B00840AFF /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon16.png; path = ../../extension_0_0_7_3/icon16.png; sourceTree = "<group>"; };
+		D63C17C227E48D7B00840AFF /* codemirror */ = {isa = PBXFileReference; lastKnownFileType = folder; name = codemirror; path = ../../extension_0_0_7_3/codemirror; sourceTree = "<group>"; };
+		D63C17C327E48D7B00840AFF /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../extension_0_0_7_3/popup.js; sourceTree = "<group>"; };
+		D63C17C427E48D7B00840AFF /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../extension_0_0_7_3/background.js; sourceTree = "<group>"; };
+		D63C17C527E48D7B00840AFF /* content_page2_loader.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content_page2_loader.js; path = ../../extension_0_0_7_3/content_page2_loader.js; sourceTree = "<group>"; };
+		D63C17C627E48D7B00840AFF /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../extension_0_0_7_3/js; sourceTree = "<group>"; };
+		D63C17C727E48D7B00840AFF /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../extension_0_0_7_3/popup.html; sourceTree = "<group>"; };
+		D63C17C827E48D7B00840AFF /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = ../../extension_0_0_7_3/icon48.png; sourceTree = "<group>"; };
+		D63C17C927E48D7B00840AFF /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; name = web; path = ../../extension_0_0_7_3/web; sourceTree = "<group>"; };
+		D63C17CA27E48D7B00840AFF /* prism */ = {isa = PBXFileReference; lastKnownFileType = folder; name = prism; path = ../../extension_0_0_7_3/prism; sourceTree = "<group>"; };
+		D63C17CB27E48D7B00840AFF /* grepper_notifications.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = grepper_notifications.js; path = ../../extension_0_0_7_3/grepper_notifications.js; sourceTree = "<group>"; };
+		D63C17CC27E48D7B00840AFF /* grepper_app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = grepper_app.js; path = ../../extension_0_0_7_3/grepper_app.js; sourceTree = "<group>"; };
+		D63C17CD27E48D7B00840AFF /* fa_subset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fa_subset; path = ../../extension_0_0_7_3/fa_subset; sourceTree = "<group>"; };
+		D63C17CE27E48D7B00840AFF /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = main.css; path = ../../extension_0_0_7_3/main.css; sourceTree = "<group>"; };
+		D63C17CF27E48D7B00840AFF /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = ../../extension_0_0_7_3/icon128.png; sourceTree = "<group>"; };
+		D63C17D027E48D7B00840AFF /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = ../../extension_0_0_7_3/_metadata; sourceTree = "<group>"; };
+		D63C17D127E48D7B00840AFF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../extension_0_0_7_3/README.md; sourceTree = "<group>"; };
+		D63C17D227E48D7B00840AFF /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../../extension_0_0_7_3/img; sourceTree = "<group>"; };
+		D63C17D327E48D7B00840AFF /* content_page2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content_page2.js; path = ../../extension_0_0_7_3/content_page2.js; sourceTree = "<group>"; };
+		D63C17D427E48D7B00840AFF /* icon96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon96.png; path = ../../extension_0_0_7_3/icon96.png; sourceTree = "<group>"; };
+		D63C17D527E48D7B00840AFF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension_0_0_7_3/manifest.json; sourceTree = "<group>"; };
+		D63C17D627E48D7B00840AFF /* semantic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = semantic; path = ../../extension_0_0_7_3/semantic; sourceTree = "<group>"; };
+		D63C17D727E48D7B00840AFF /* page2.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = page2.css; path = ../../extension_0_0_7_3/page2.css; sourceTree = "<group>"; };
+		D63C17D827E48D7B00840AFF /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../extension_0_0_7_3/popup.css; sourceTree = "<group>"; };
+		D63C17D927E48D7B00840AFF /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../extension_0_0_7_3/content.js; sourceTree = "<group>"; };
+		D63C17DA27E48D7B00840AFF /* icon_tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_tall.png; path = ../../extension_0_0_7_3/icon_tall.png; sourceTree = "<group>"; };
+		D63C17DB27E48D7B00840AFF /* mani_backup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = mani_backup.json; path = ../../extension_0_0_7_3/mani_backup.json; sourceTree = "<group>"; };
+		D63C17DC27E48D7B00840AFF /* icon24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon24.png; path = ../../extension_0_0_7_3/icon24.png; sourceTree = "<group>"; };
+		D63C17DD27E48D7B00840AFF /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon32.png; path = ../../extension_0_0_7_3/icon32.png; sourceTree = "<group>"; };
+		D63C17DE27E48D7B00840AFF /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; name = media; path = ../../extension_0_0_7_3/media; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63C176F27E48D7B00840AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C178127E48D7B00840AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C178E27E48D7B00840AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C179827E48D7B00840AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D63C175E27E48D7A00840AFF = {
+			isa = PBXGroup;
+			children = (
+				D63C176327E48D7A00840AFF /* Shared (App) */,
+				D63C176C27E48D7B00840AFF /* Shared (Extension) */,
+				D63C177427E48D7B00840AFF /* iOS (App) */,
+				D63C178527E48D7B00840AFF /* macOS (App) */,
+				D63C179527E48D7B00840AFF /* iOS (Extension) */,
+				D63C179F27E48D7B00840AFF /* macOS (Extension) */,
+				D63C177327E48D7B00840AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D63C176327E48D7A00840AFF /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D63C176A27E48D7A00840AFF /* ViewController.swift */,
+				D63C176B27E48D7B00840AFF /* Assets.xcassets */,
+				D63C176427E48D7A00840AFF /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		D63C176427E48D7A00840AFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D63C176527E48D7A00840AFF /* Main.html */,
+				D63C176727E48D7A00840AFF /* Icon.png */,
+				D63C176827E48D7A00840AFF /* Style.css */,
+				D63C176927E48D7A00840AFF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D63C176C27E48D7B00840AFF /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D63C17C027E48D7B00840AFF /* Resources */,
+				D63C176D27E48D7B00840AFF /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		D63C177327E48D7B00840AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63C177227E48D7B00840AFF /* Grepper.app */,
+				D63C178427E48D7B00840AFF /* Grepper.app */,
+				D63C179127E48D7B00840AFF /* Grepper Extension.appex */,
+				D63C179B27E48D7B00840AFF /* Grepper Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63C177427E48D7B00840AFF /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D63C177527E48D7B00840AFF /* AppDelegate.swift */,
+				D63C177727E48D7B00840AFF /* SceneDelegate.swift */,
+				D63C177927E48D7B00840AFF /* LaunchScreen.storyboard */,
+				D63C177C27E48D7B00840AFF /* Main.storyboard */,
+				D63C177F27E48D7B00840AFF /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		D63C178527E48D7B00840AFF /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D63C178627E48D7B00840AFF /* AppDelegate.swift */,
+				D63C178827E48D7B00840AFF /* Main.storyboard */,
+				D63C178B27E48D7B00840AFF /* Info.plist */,
+				D63C178C27E48D7B00840AFF /* Grepper.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		D63C179527E48D7B00840AFF /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D63C179627E48D7B00840AFF /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D63C179F27E48D7B00840AFF /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D63C17A027E48D7B00840AFF /* Info.plist */,
+				D63C17A127E48D7B00840AFF /* Grepper.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D63C17C027E48D7B00840AFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D63C17C127E48D7B00840AFF /* icon16.png */,
+				D63C17C227E48D7B00840AFF /* codemirror */,
+				D63C17C327E48D7B00840AFF /* popup.js */,
+				D63C17C427E48D7B00840AFF /* background.js */,
+				D63C17C527E48D7B00840AFF /* content_page2_loader.js */,
+				D63C17C627E48D7B00840AFF /* js */,
+				D63C17C727E48D7B00840AFF /* popup.html */,
+				D63C17C827E48D7B00840AFF /* icon48.png */,
+				D63C17C927E48D7B00840AFF /* web */,
+				D63C17CA27E48D7B00840AFF /* prism */,
+				D63C17CB27E48D7B00840AFF /* grepper_notifications.js */,
+				D63C17CC27E48D7B00840AFF /* grepper_app.js */,
+				D63C17CD27E48D7B00840AFF /* fa_subset */,
+				D63C17CE27E48D7B00840AFF /* main.css */,
+				D63C17CF27E48D7B00840AFF /* icon128.png */,
+				D63C17D027E48D7B00840AFF /* _metadata */,
+				D63C17D127E48D7B00840AFF /* README.md */,
+				D63C17D227E48D7B00840AFF /* img */,
+				D63C17D327E48D7B00840AFF /* content_page2.js */,
+				D63C17D427E48D7B00840AFF /* icon96.png */,
+				D63C17D527E48D7B00840AFF /* manifest.json */,
+				D63C17D627E48D7B00840AFF /* semantic */,
+				D63C17D727E48D7B00840AFF /* page2.css */,
+				D63C17D827E48D7B00840AFF /* popup.css */,
+				D63C17D927E48D7B00840AFF /* content.js */,
+				D63C17DA27E48D7B00840AFF /* icon_tall.png */,
+				D63C17DB27E48D7B00840AFF /* mani_backup.json */,
+				D63C17DC27E48D7B00840AFF /* icon24.png */,
+				D63C17DD27E48D7B00840AFF /* icon32.png */,
+				D63C17DE27E48D7B00840AFF /* media */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63C177127E48D7B00840AFF /* Grepper (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63C17B627E48D7B00840AFF /* Build configuration list for PBXNativeTarget "Grepper (iOS)" */;
+			buildPhases = (
+				D63C176E27E48D7B00840AFF /* Sources */,
+				D63C176F27E48D7B00840AFF /* Frameworks */,
+				D63C177027E48D7B00840AFF /* Resources */,
+				D63C17B527E48D7B00840AFF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63C179427E48D7B00840AFF /* PBXTargetDependency */,
+			);
+			name = "Grepper (iOS)";
+			productName = "Grepper (iOS)";
+			productReference = D63C177227E48D7B00840AFF /* Grepper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D63C178327E48D7B00840AFF /* Grepper (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63C17BD27E48D7B00840AFF /* Build configuration list for PBXNativeTarget "Grepper (macOS)" */;
+			buildPhases = (
+				D63C178027E48D7B00840AFF /* Sources */,
+				D63C178127E48D7B00840AFF /* Frameworks */,
+				D63C178227E48D7B00840AFF /* Resources */,
+				D63C17BC27E48D7B00840AFF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63C179E27E48D7B00840AFF /* PBXTargetDependency */,
+			);
+			name = "Grepper (macOS)";
+			productName = "Grepper (macOS)";
+			productReference = D63C178427E48D7B00840AFF /* Grepper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D63C179027E48D7B00840AFF /* Grepper Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63C17B227E48D7B00840AFF /* Build configuration list for PBXNativeTarget "Grepper Extension (iOS)" */;
+			buildPhases = (
+				D63C178D27E48D7B00840AFF /* Sources */,
+				D63C178E27E48D7B00840AFF /* Frameworks */,
+				D63C178F27E48D7B00840AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grepper Extension (iOS)";
+			productName = "Grepper Extension (iOS)";
+			productReference = D63C179127E48D7B00840AFF /* Grepper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D63C179A27E48D7B00840AFF /* Grepper Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63C17B927E48D7B00840AFF /* Build configuration list for PBXNativeTarget "Grepper Extension (macOS)" */;
+			buildPhases = (
+				D63C179727E48D7B00840AFF /* Sources */,
+				D63C179827E48D7B00840AFF /* Frameworks */,
+				D63C179927E48D7B00840AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grepper Extension (macOS)";
+			productName = "Grepper Extension (macOS)";
+			productReference = D63C179B27E48D7B00840AFF /* Grepper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63C175F27E48D7A00840AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D63C177127E48D7B00840AFF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					D63C178327E48D7B00840AFF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					D63C179027E48D7B00840AFF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					D63C179A27E48D7B00840AFF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = D63C176227E48D7A00840AFF /* Build configuration list for PBXProject "Grepper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D63C175E27E48D7A00840AFF;
+			productRefGroup = D63C177327E48D7B00840AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63C177127E48D7B00840AFF /* Grepper (iOS) */,
+				D63C178327E48D7B00840AFF /* Grepper (macOS) */,
+				D63C179027E48D7B00840AFF /* Grepper Extension (iOS) */,
+				D63C179A27E48D7B00840AFF /* Grepper Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63C177027E48D7B00840AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C17A427E48D7B00840AFF /* Icon.png in Resources */,
+				D63C177B27E48D7B00840AFF /* LaunchScreen.storyboard in Resources */,
+				D63C17A227E48D7B00840AFF /* Main.html in Resources */,
+				D63C17A827E48D7B00840AFF /* Script.js in Resources */,
+				D63C17AC27E48D7B00840AFF /* Assets.xcassets in Resources */,
+				D63C177E27E48D7B00840AFF /* Main.storyboard in Resources */,
+				D63C17A627E48D7B00840AFF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C178227E48D7B00840AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C17A527E48D7B00840AFF /* Icon.png in Resources */,
+				D63C17A727E48D7B00840AFF /* Style.css in Resources */,
+				D63C178A27E48D7B00840AFF /* Main.storyboard in Resources */,
+				D63C17A927E48D7B00840AFF /* Script.js in Resources */,
+				D63C17AD27E48D7B00840AFF /* Assets.xcassets in Resources */,
+				D63C17A327E48D7B00840AFF /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C178F27E48D7B00840AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C180E27E48D7B00840AFF /* img in Resources */,
+				D63C181127E48D7B00840AFF /* manifest.json in Resources */,
+				D63C180527E48D7B00840AFF /* web in Resources */,
+				D63C181627E48D7B00840AFF /* icon_tall.png in Resources */,
+				D63C180327E48D7B00840AFF /* popup.html in Resources */,
+				D63C180827E48D7B00840AFF /* grepper_app.js in Resources */,
+				D63C181327E48D7B00840AFF /* page2.css in Resources */,
+				D63C180027E48D7B00840AFF /* background.js in Resources */,
+				D63C180F27E48D7B00840AFF /* content_page2.js in Resources */,
+				D63C181727E48D7B00840AFF /* mani_backup.json in Resources */,
+				D63C180427E48D7B00840AFF /* icon48.png in Resources */,
+				D63C181527E48D7B00840AFF /* content.js in Resources */,
+				D63C181827E48D7B00840AFF /* icon24.png in Resources */,
+				D63C180627E48D7B00840AFF /* prism in Resources */,
+				D63C180927E48D7B00840AFF /* fa_subset in Resources */,
+				D63C181027E48D7B00840AFF /* icon96.png in Resources */,
+				D63C180227E48D7B00840AFF /* js in Resources */,
+				D63C180B27E48D7B00840AFF /* icon128.png in Resources */,
+				D63C180C27E48D7B00840AFF /* _metadata in Resources */,
+				D63C180127E48D7B00840AFF /* content_page2_loader.js in Resources */,
+				D63C180D27E48D7B00840AFF /* README.md in Resources */,
+				D63C180727E48D7B00840AFF /* grepper_notifications.js in Resources */,
+				D63C180A27E48D7B00840AFF /* main.css in Resources */,
+				D63C17FE27E48D7B00840AFF /* codemirror in Resources */,
+				D63C181427E48D7B00840AFF /* popup.css in Resources */,
+				D63C17FF27E48D7B00840AFF /* popup.js in Resources */,
+				D63C181927E48D7B00840AFF /* icon32.png in Resources */,
+				D63C181A27E48D7B00840AFF /* media in Resources */,
+				D63C181227E48D7B00840AFF /* semantic in Resources */,
+				D63C17FD27E48D7B00840AFF /* icon16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C179927E48D7B00840AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C17F027E48D7B00840AFF /* img in Resources */,
+				D63C17F327E48D7B00840AFF /* manifest.json in Resources */,
+				D63C17E727E48D7B00840AFF /* web in Resources */,
+				D63C17F827E48D7B00840AFF /* icon_tall.png in Resources */,
+				D63C17E527E48D7B00840AFF /* popup.html in Resources */,
+				D63C17EA27E48D7B00840AFF /* grepper_app.js in Resources */,
+				D63C17F527E48D7B00840AFF /* page2.css in Resources */,
+				D63C17E227E48D7B00840AFF /* background.js in Resources */,
+				D63C17F127E48D7B00840AFF /* content_page2.js in Resources */,
+				D63C17F927E48D7B00840AFF /* mani_backup.json in Resources */,
+				D63C17E627E48D7B00840AFF /* icon48.png in Resources */,
+				D63C17F727E48D7B00840AFF /* content.js in Resources */,
+				D63C17FA27E48D7B00840AFF /* icon24.png in Resources */,
+				D63C17E827E48D7B00840AFF /* prism in Resources */,
+				D63C17EB27E48D7B00840AFF /* fa_subset in Resources */,
+				D63C17F227E48D7B00840AFF /* icon96.png in Resources */,
+				D63C17E427E48D7B00840AFF /* js in Resources */,
+				D63C17ED27E48D7B00840AFF /* icon128.png in Resources */,
+				D63C17EE27E48D7B00840AFF /* _metadata in Resources */,
+				D63C17E327E48D7B00840AFF /* content_page2_loader.js in Resources */,
+				D63C17EF27E48D7B00840AFF /* README.md in Resources */,
+				D63C17E927E48D7B00840AFF /* grepper_notifications.js in Resources */,
+				D63C17EC27E48D7B00840AFF /* main.css in Resources */,
+				D63C17E027E48D7B00840AFF /* codemirror in Resources */,
+				D63C17F627E48D7B00840AFF /* popup.css in Resources */,
+				D63C17E127E48D7B00840AFF /* popup.js in Resources */,
+				D63C17FB27E48D7B00840AFF /* icon32.png in Resources */,
+				D63C17FC27E48D7B00840AFF /* media in Resources */,
+				D63C17F427E48D7B00840AFF /* semantic in Resources */,
+				D63C17DF27E48D7B00840AFF /* icon16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63C176E27E48D7B00840AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C17AA27E48D7B00840AFF /* ViewController.swift in Sources */,
+				D63C177627E48D7B00840AFF /* AppDelegate.swift in Sources */,
+				D63C177827E48D7B00840AFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C178027E48D7B00840AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C17AB27E48D7B00840AFF /* ViewController.swift in Sources */,
+				D63C178727E48D7B00840AFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C178D27E48D7B00840AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C17AE27E48D7B00840AFF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63C179727E48D7B00840AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C17AF27E48D7B00840AFF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D63C179427E48D7B00840AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63C179027E48D7B00840AFF /* Grepper Extension (iOS) */;
+			targetProxy = D63C179327E48D7B00840AFF /* PBXContainerItemProxy */;
+		};
+		D63C179E27E48D7B00840AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63C179A27E48D7B00840AFF /* Grepper Extension (macOS) */;
+			targetProxy = D63C179D27E48D7B00840AFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D63C176527E48D7A00840AFF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63C176627E48D7A00840AFF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D63C177927E48D7B00840AFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63C177A27E48D7B00840AFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D63C177C27E48D7B00840AFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63C177D27E48D7B00840AFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63C178827E48D7B00840AFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63C178927E48D7B00840AFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63C17B027E48D7B00840AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D63C17B127E48D7B00840AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D63C17B327E48D7B00840AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Grepper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Grepper.Extension;
+				PRODUCT_NAME = "Grepper Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63C17B427E48D7B00840AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Grepper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Grepper.Extension;
+				PRODUCT_NAME = "Grepper Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63C17B727E48D7B00840AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Grepper;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Grepper;
+				PRODUCT_NAME = Grepper;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63C17B827E48D7B00840AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Grepper;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Grepper;
+				PRODUCT_NAME = Grepper;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63C17BA27E48D7B00840AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Grepper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Grepper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Grepper.Extension;
+				PRODUCT_NAME = "Grepper Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D63C17BB27E48D7B00840AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Grepper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Grepper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Grepper.Extension;
+				PRODUCT_NAME = "Grepper Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D63C17BE27E48D7B00840AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Grepper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Grepper;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Grepper;
+				PRODUCT_NAME = Grepper;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D63C17BF27E48D7B00840AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Grepper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Grepper;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Grepper;
+				PRODUCT_NAME = Grepper;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63C176227E48D7A00840AFF /* Build configuration list for PBXProject "Grepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C17B027E48D7B00840AFF /* Debug */,
+				D63C17B127E48D7B00840AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63C17B227E48D7B00840AFF /* Build configuration list for PBXNativeTarget "Grepper Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C17B327E48D7B00840AFF /* Debug */,
+				D63C17B427E48D7B00840AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63C17B627E48D7B00840AFF /* Build configuration list for PBXNativeTarget "Grepper (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C17B727E48D7B00840AFF /* Debug */,
+				D63C17B827E48D7B00840AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63C17B927E48D7B00840AFF /* Build configuration list for PBXNativeTarget "Grepper Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C17BA27E48D7B00840AFF /* Debug */,
+				D63C17BB27E48D7B00840AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63C17BD27E48D7B00840AFF /* Build configuration list for PBXNativeTarget "Grepper (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C17BE27E48D7B00840AFF /* Debug */,
+				D63C17BF27E48D7B00840AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D63C175F27E48D7A00840AFF /* Project object */;
+}
